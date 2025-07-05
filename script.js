@@ -13,7 +13,7 @@
     }
     // act on bucket
     if (group === 'B') {
-        // window.location.href = '/variant-B.html'
+        window.location.href = 'http://localhost:3001/thing'
         console.log('User in group B');
     } else {
         console.log('User in group A');
