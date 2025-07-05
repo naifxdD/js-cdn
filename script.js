@@ -15,6 +15,7 @@
     if (group === 'B') {
         window.location.href = 'http://localhost:3001/thing'
         console.log('User in group B');
+        return;
     } else {
         console.log('User in group A');
     }
